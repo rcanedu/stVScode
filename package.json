@@ -15,7 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/rcanedu/stVSCode/issues"
 	},
-	"icon": "images/icon.svg",
+	"icon": "images/st-icon.svg",
 	"galleryBanner": {
 		"color": "#352632",
 		"theme": "dark"
