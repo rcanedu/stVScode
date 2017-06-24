@@ -2,7 +2,7 @@
     "name": "st",
     "displayName": "Structured Text",
     "description": "Structured Text language supports",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "publisher": "rcanedu",
     "engines": {
         "vscode": "^1.12.0"
@@ -17,7 +17,7 @@
 	},
 	"icon": "images/st-icon.svg",
 	"galleryBanner": {
-		"color": "#352632",
+		"color": "#5f3f5f",
 		"theme": "dark"
 	},
     "keywords": [
@@ -36,7 +36,7 @@
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "StructuredText",
+            "language": "st",
             "scopeName": "source.st",
             "path": "./syntaxes/st.tmLanguage.json"
         }]

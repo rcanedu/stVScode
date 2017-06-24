@@ -1,7 +1,7 @@
 # ST (Structured Text)
   
   ### Syntax highlighting for ST (Structured Text) language
-  #### Version 0.0.1
+  #### Version 0.0.4
 
   ![Structured Text highlighting](./images/preview.png)
 
