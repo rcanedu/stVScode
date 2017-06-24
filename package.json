@@ -1,0 +1,44 @@
+{
+    "name": "st",
+    "displayName": "Structured Text",
+    "description": "Structured Text language supports",
+    "version": "0.0.1",
+    "publisher": "rcanedu",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rcanedu/stVSCode"
+	},
+	"bugs": {
+		"url": "https://github.com/rcanedu/stVSCode/issues"
+	},
+	"icon": "images/icon.svg",
+	"galleryBanner": {
+		"color": "#352632",
+		"theme": "dark"
+	},
+    "keywords": [
+		"st",
+		"structured",
+		"plc"
+	],
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "st",
+            "aliases": ["ST", "st", "Structured Text"],
+            "extensions": [".st"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "Structured Text",
+            "scopeName": "source.st",
+            "path": "./syntaxes/st.tmLanguage.json"
+        }]
+    }
+}
