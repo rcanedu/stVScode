@@ -52,7 +52,7 @@
 		},
 		"var-expr": {
 			"name": "meta.var.expr.st",
-			"begin": "(?<!\\.|\\$)\\b(?i:(VAR|VAR_INPUT|VAR_OUTPUT|CONSTANT)(?!\\s+enum\\b))\\b(?!\\$|\\.)",
+			"begin": "(?<!\\.|\\$)\\b(?i:(VAR|VAR_GLOBAL|VAR_INPUT|VAR_OUTPUT|CONSTANT)(?!\\s+enum\\b))\\b(?!\\$|\\.)",
 			"beginCaptures": {
 				"1": {
 					"name": "storage.type.st"
