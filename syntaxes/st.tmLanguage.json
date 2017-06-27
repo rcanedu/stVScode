@@ -196,7 +196,7 @@
 				},
 				{
 					"name": "keyword.control.conditional.st",
-					"match": "(?<!\\.|\\$)\\b(?i:(IF|ELSEIF|ELSE|END_IF|THEN))\\b(?!\\$|\\.)"
+					"match": "(?<!\\.|\\$)\\b(?i:(IF|ELSIF|ELSE|END_IF|THEN))\\b(?!\\$|\\.)"
 				}
 			]
 		},
