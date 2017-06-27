@@ -1,4 +1,8 @@
 # Change Log
+
+## Version 0.0.8 (26 June 2017)
+  - Fix small bugs
+
 ## Version 0.0.5 (26 June 2017)
   - Fix highlighting global variables statement
 
