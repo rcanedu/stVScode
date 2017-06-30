@@ -317,9 +317,6 @@
 					"include": "#comment"
 				},
 				{
-					"include": "#type-parameters"
-				},
-				{
 					"include": "#statements"
 				},
 				{
@@ -411,9 +408,6 @@
 				},
 				{
 					"include": "#type-builtin-literals"
-				},
-				{
-					"include": "#type-parameters"
 				},
 				{
 					"include": "#type-name"
