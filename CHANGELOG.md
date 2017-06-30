@@ -1,5 +1,8 @@
 # Change Log
 
+## Version 0.0.9 (30 June 2017)
+  - Fix bug from issue #3
+
 ## Version 0.0.8 (26 June 2017)
   - Fix small bugs
 
