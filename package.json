@@ -2,7 +2,7 @@
     "name": "st",
     "displayName": "Structured Text",
     "description": "Structured Text language supports",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "publisher": "rcanedu",
     "engines": {
         "vscode": "^1.12.0"

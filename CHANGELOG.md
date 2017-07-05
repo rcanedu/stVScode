@@ -1,7 +1,10 @@
 # Change Log
 
+## Version 0.0.10 (5 July 2017)
+  - Fix array literals and program statement
+
 ## Version 0.0.9 (30 June 2017)
-  - Fix bug from issue #3
+  - Fix function statement
 
 ## Version 0.0.8 (26 June 2017)
   - Fix small bugs
