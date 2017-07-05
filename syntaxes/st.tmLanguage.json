@@ -1,6 +1,6 @@
 {
 	"information_for_contributors": [],
-	"version": "0.0.1",
+	"version": "0.0.10",
 	"name": "ST (Structured Text Language)",
 	"scopeName": "source.st",
 	"fileTypes": [".st"],
@@ -281,9 +281,6 @@
 					"include": "#comment"
 				},
 				{
-					"include": "#type-parameters"
-				},
-				{
 					"include": "#statements"
 				}
 			]
@@ -411,6 +408,9 @@
 				},
 				{
 					"include": "#type-name"
+				},
+				{
+					"include": "#array-literal"
 				}
 			]
 		},
@@ -449,7 +449,7 @@
 		},
 		"type-primitive": {
 			"name": "support.type.primitive.st",
-			"match": "(?<!\\.|\\$)\\b(?i:(BOOL|BYTE|WORD|DWORD|SINT|USINT|INT|UINT|DINT|UDINT|REAL|LREAL|TIME|DATE|TIME_OF_DAY|DATE_AND_TIME|STRING))\\b(?!\\$|\\.)"
+			"match": "(?<!\\.|\\$)\\b(?i:(BOOL|BYTE|WORD|DWORD|SINT|USINT|INT|UINT|DINT|UDINT|REAL|LREAL|TIME|DATE|TIME_OF_DAY|DATE_AND_TIME|STRING|ARRAY))\\b(?!\\$|\\.)"
 		},
 		"type-builtin-literals": {
 			"name": "support.type.builtin.st",
@@ -855,7 +855,7 @@
 		},
 		"array-literal": {
 			"name": "meta.array.literal.st",
-			"begin": "(?i:(Array))\\[",
+			"begin": "\\[",
 			"beginCaptures": {
 				"0": {
 					"name": "meta.brace.square.st"
@@ -869,7 +869,13 @@
 			},
 			"patterns": [
 				{
-					"include": "#expression"
+					"include": "#string"
+				},
+				{
+					"include": "#comment"
+				},
+				{
+					"include":"#identifiers"
 				},
 				{
 					"include": "#punctuation-comma"
