@@ -1,3 +1,13 @@
+This project is archived
+====
+And will be remove from marketplace in next year. Sorry:(
+
+**But!** You can use other awesome extension:
+
+[VSCode Marketplace Structured Text language Support](https://marketplace.visualstudio.com/items?itemName=Serhioromano.vscode-st)
+
+[Repository on GitHub](https://github.com/Serhioromano/vscode-st)
+
 # ST (Structured Text)
   
   ### Syntax highlighting for ST (Structured Text) language
@@ -7,10 +17,3 @@
 
 # Quick Start
   - Install the extension
-
-# Feature details
-  - Code Linting
-  - Auto indenting
-  - Code formatting
-  - Intellisense
-  - Snippets
