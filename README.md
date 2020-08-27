@@ -1,6 +1,5 @@
 This project is archived
 ====
-And will be remove from marketplace in next year. Sorry:(
 
 **But!** You can use other awesome extension:
 
